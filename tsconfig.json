@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "baseUrl": "./",
+        "incremental": true,
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "tsc-out",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": false,
+        "sourceMap": true,
+        "lib": ["es5", "dom", "es2015.core"],
+        "experimentalDecorators": true,
+        "paths": {
+            "core/*": [ "./core/*" ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "tests/**/*.spec.ts"
+    ],
+    "exclude": []
+}
