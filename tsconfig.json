@@ -13,7 +13,7 @@
         "forceConsistentCasingInFileNames": true,
         "strictNullChecks": false,
         "sourceMap": true,
-        "lib": ["es5", "dom", "es2015.core"],
+        "lib": ["es5", "dom", "es2015.core", "ES2015.Promise"],
         "experimentalDecorators": true,
         "paths": {
             "core/*": [ "./core/*" ]
